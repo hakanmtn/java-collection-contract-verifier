@@ -1,11 +1,11 @@
+
 # Java Collection Contract Verifier
 
-[![CI](https://github.com/hakanmtn/MeineBachelorarbeit/actions/workflows/ci.yml/badge.svg)](https://github.com/hakanmtn/MeineBachelorarbeit/actions/workflows/ci.yml)
+[![CI](https://github.com/hakanmtn/java-collection-contract-verifier/actions/workflows/ci.yml/badge.svg)](https://github.com/hakanmtn/java-collection-contract-verifier/actions/workflows/ci.yml)
 
-This repository contains the implementation developed for my bachelor thesis at
-Ludwig Maximilian University of Munich (LMU): **Conformance Checking Between
-Java Classes and Formal Models** (*Konformitätsprüfung zwischen Java-Klassen
-und formalen Modellen*).
+This project checks whether observed Java collection operations follow their formal contracts. It generates test sequences with jqwik, records their execution, and checks the results with Z3.
+
+I developed this tool for my bachelor's thesis at LMU Munich: **Conformance Checking Between Java Classes and Formal Models** (*Konformitätsprüfung zwischen Java-Klassen und formalen Modellen*).
 
 The project checks whether observed executions of Java collections conform to
 formal operation contracts. It combines property-based test generation with
