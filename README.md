@@ -7,10 +7,6 @@ This project checks whether observed Java collection operations follow their for
 
 I developed this tool for my bachelor's thesis at LMU Munich: **Conformance Checking Between Java Classes and Formal Models** (*Konformitätsprüfung zwischen Java-Klassen und formalen Modellen*).
 
-The project checks whether observed executions of Java collections conform to
-formal operation contracts. It combines property-based test generation with
-runtime tracing and bounded trace checking in the Z3 SMT solver.
-
 ## Highlights
 
 - Java 22 implementation with interfaces, records, generics, and immutable
